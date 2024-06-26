@@ -23,7 +23,7 @@ const displayCat = async() => {
     <p class="card-text">Type: ${data[0].type}</p>
     <p class="card-text">Date: ${data[0].date}</p>
     <p class="card-text">Day: ${data[0].week_day}</p>
-    <p class="card-text>Country: ${data[0].location}</p>
+    <p class="card-text">Country: ${data[0].location}</p>
   </div>
 </div>`;
 res.append(col);
